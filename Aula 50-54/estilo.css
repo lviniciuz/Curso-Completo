@@ -1,0 +1,54 @@
+body{
+    background: crimson;
+}
+
+#container{
+    width: auto;
+    margin: 10px 20px;/*Espaçamento externo */
+    padding: 10px; /*Espaçamento interno */
+    background: white;
+}
+
+p{
+  width: 300px; /*Largura de todos paragrafos feitos*/
+}
+
+
+
+/* (Posicionamento relativo) tem seu alinhamento baseado na posiçao inicial que ele tem*/
+ .relative{ 
+    border: 1px solid red;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+    
+
+/* (Posicionamento absoluto, tem a mesma função do relativo, oque muda é que o container onde ele vai ser instalado não reconhece ele e defina uma caixa que é removida do fluxo de movimento!) */
+.absolute{
+    position: absolute;
+    border: 1px solid red;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+} 
+
+.fixed{ /*Posicionamento fixo, fixa algo na tela do pc, sendo assim, no body, utilizado em sites para chat, menu, entre outros */
+    position: fixed;
+    border: 1px solid red;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; 
+} 
+/*Todos os posicionamentos basicamente segue o mesmo padrão do outro, sendo assim, cada um tem sua propriedade*/
+
+/*
+
+z-index: ;   <--(comando utilizado para que possa sobre por um conteúdo na frente do outro, ex: pelo elemento absolute, pode duas div ficar uma na frente da outra, com esse comando pode designar qual ficar na frente, colocando o valor maior na que fique na frente, z-index:1 ; e na que fica por baixo z-index:0 ; 
+
+*/
+
