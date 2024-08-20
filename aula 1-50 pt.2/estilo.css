@@ -1,0 +1,32 @@
+* /*referente a pagina toda*/{
+    background-color: antiquewhite; /*cor do fundo*/
+    
+}
+.container{/*Referente a div do html */
+    background-color: aqua;
+    width: 60px;/*Largura */
+    height: 60px;/*altura */
+    border: 1px solid brown;/*adicionar bordar com 1 pixel, solida e a cor marrom */
+    border-width: 5px;/*tamanho em largura da borda*/
+    border-style:solid;/*estilo da borda*/
+border-radius: 3px;
+display: inline;
+}
+
+#segundaetapa{ /*referente o id dentro da div do html */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-size: 20px; /*Ajusta o tamanho fa fonte */
+   width: 20px;/*encurta como elemento bloco no css */
+   font-style: italic;/*estilo da fonte */
+   color: rgb(6, 216, 94); /*Cor da fonte escrita */
+}
+body{ /*Modifica tudo dentro do Body do html*/
+    height: 3000px;/*Altura da pagina*/
+    background-image: url(a.jpg); /*Adiciona uma imagem de fundo*/
+    background-repeat: no-repeat;/*Para o background não repetir*/
+    
+}
+
+.novo{
+    text-align: center;/*Alinha o texto no centro*/
+}
