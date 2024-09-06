@@ -1,0 +1,25 @@
+ul#menu{
+    margin: 0;
+    padding: 0px;
+    list-style: none;
+    width: 720px;
+    background: #159cb0 url(arquivos-necessarios-navegacao-horizontal/fundo-horizontal.png) repeat-x;
+    float: left;
+    
+}
+ul#menu li{
+    float: left;
+}
+
+ul#menu a{
+    display: block;
+    padding: 0 2em;
+    line-height: 2em;
+    text-decoration: none;
+    color: black;
+    background: url(arquivos-necessarios-navegacao-horizontal/divisor.png) repeat-y;
+}
+ul#menu a:hover {
+    background-color: rgb(34, 169, 223);
+    color: rgb(255, 255, 255);
+}
