@@ -1,0 +1,5 @@
+A coluna falsa só pode ser feita em layout fixo
+
+coluna falsa é um nome dado a uma imagem que se repete e que fuca em um dos containers dando a ideia quq seria uma coluna, mais é só uma imagem repetida.
+
+muito utilizado em sites de layout fixo, não responsivo!

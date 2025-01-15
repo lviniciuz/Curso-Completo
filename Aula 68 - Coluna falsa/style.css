@@ -1,0 +1,67 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #f2f2f2;
+}
+
+#container{
+    min-width: 720px;/*Esse efeito coluna só funciona em layout fixo */
+    width: 960px; /*tamanho do layout Fixo*/
+    margin: 0 auto; /* Sempre que utiliza auto para laterais, centraliza o conteudo */
+    background: url(arquivos-necessarios-coluna-falsa/coluna.png) repeat-y left top;
+    
+}
+
+#marca{
+    width: 100%;
+    height: 200px; /*largura do layout fixo*/
+    text-align: center;
+    line-height: 200px;
+    background: #225992 url(arquivos-necessarios-imagens-liquidas/cabecalho2.jpg) no-repeat center;
+}
+#conteudo{
+    
+    width: 75%; /*largura do layout liquido*/
+    float: right;
+}
+#conteudo-principal{
+    
+    width: 63%;
+    float: left; 
+    background: #d3f3;
+    
+}
+
+img.imgnatureza{
+    
+    width: 98%;
+    padding: 1%;
+    max-width: 500px;
+}
+
+#conteudo-secundario{
+    
+    width: 36%;
+    float: right;
+    background: #d1d11d; 
+}
+#navegacao{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    width: 23%; /*largura do layout liquido*/
+    float: left;
+}
+#rodape{
+    clear: both;
+    background-color: aqua;
+    padding: 5px;
+
+}
+
+#navegacao li{
+    list-style: none;
+    font-size: 20px;
+    
+}
+
+
