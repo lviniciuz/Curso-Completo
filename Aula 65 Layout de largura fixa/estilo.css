@@ -4,6 +4,7 @@ body{
 }
 
 #container{
+    border: 1px solid red;
     width: 720px; /*tamanho do layout fixo*/
     margin: 0 auto; /* Sempre que utiliza auto para laterais, centraliza o conteudo */
     
@@ -31,11 +32,8 @@ body{
 }
 #navegacao{
     width: 180px; /*largura do layout fixo*/
-    float: right;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    float: left;
     background: #d1d1d1;
-    border: 1px solid black;
 }
 #rodape{
     clear: both;
@@ -46,19 +44,8 @@ body{
 
 #navegacao li{
     list-style: none;
-    text-align: left;
     font-size: 20px;
     
 }
 
-#navegacao li a{
-    text-decoration: none;
-}
-
-#navegacao li a:hover{
-    background-color: black;
-    color: white;
-    border-radius: 15px;
-
-}
 
